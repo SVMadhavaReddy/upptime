@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.urbanladder.com.ico",
     "slug": "urbanladder-hercules",
     "status": "down",
-    "uptime": "29.79%",
-    "uptimeDay": "29.79%",
-    "uptimeWeek": "29.79%",
-    "uptimeMonth": "29.79%",
-    "uptimeYear": "29.79%",
-    "time": 3638,
-    "timeDay": 3638,
-    "timeWeek": 3638,
-    "timeMonth": 3638,
-    "timeYear": 3638,
+    "uptime": "1.61%",
+    "uptimeDay": "1.61%",
+    "uptimeWeek": "1.61%",
+    "uptimeMonth": "1.61%",
+    "uptimeYear": "1.61%",
+    "time": 2886,
+    "timeDay": 2886,
+    "timeWeek": 2886,
+    "timeMonth": 2886,
+    "timeYear": 2886,
     "dailyMinutesDown": {
-      "2023-02-27": 0
+      "2023-02-27": 7
     }
   },
   {
@@ -25,18 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/thissitedoesnotexist.koj.co.ico",
     "slug": "urbanladder-hercules",
     "status": "down",
-    "uptime": "31.64%",
-    "uptimeDay": "31.64%",
-    "uptimeWeek": "31.64%",
-    "uptimeMonth": "31.64%",
-    "uptimeYear": "31.64%",
-    "time": 3638,
-    "timeDay": 3638,
-    "timeWeek": 3638,
-    "timeMonth": 3638,
-    "timeYear": 3638,
+    "uptime": "1.68%",
+    "uptimeDay": "1.68%",
+    "uptimeWeek": "1.68%",
+    "uptimeMonth": "1.68%",
+    "uptimeYear": "1.68%",
+    "time": 2886,
+    "timeDay": 2886,
+    "timeWeek": 2886,
+    "timeMonth": 2886,
+    "timeYear": 2886,
     "dailyMinutesDown": {
-      "2023-02-27": 0
+      "2023-02-27": 7
     }
   }
 ]

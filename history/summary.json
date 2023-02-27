@@ -1,40 +1,40 @@
 [
   {
-    "name": "Urbanladder - Hercules",
-    "url": "https://www.urbanladder.com",
-    "icon": "https://icons.duckduckgo.com/ip3/www.urbanladder.com.ico",
-    "slug": "urbanladder-hercules",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 2328,
-    "timeDay": 2328,
-    "timeWeek": 2328,
-    "timeMonth": 2328,
-    "timeYear": 2328,
-    "dailyMinutesDown": {}
-  },
-  {
-    "name": "Urbanladder - Deadpul",
-    "url": "https://deadpul.prod.urbanladder.com",
-    "icon": "https://icons.duckduckgo.com/ip3/deadpul.prod.urbanladder.com.ico",
-    "slug": "urbanladder-deadpul",
+    "name": "Staging - Hercules",
+    "url": "https://stg-hercules.urbanladder.com",
+    "icon": "https://icons.duckduckgo.com/ip3/stg-hercules.urbanladder.com.ico",
+    "slug": "staging-hercules",
     "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
+    "uptime": "15.15%",
+    "uptimeDay": "15.15%",
+    "uptimeWeek": "15.15%",
+    "uptimeMonth": "15.15%",
+    "uptimeYear": "15.15%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2023-02-27": 208
+      "2023-02-27": 0
     }
+  },
+  {
+    "name": "Staging - Deadpul",
+    "url": "https://stg-birbul.urbanladder.com",
+    "icon": "https://icons.duckduckgo.com/ip3/stg-birbul.urbanladder.com.ico",
+    "slug": "staging-deadpul",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 308,
+    "timeDay": 308,
+    "timeWeek": 308,
+    "timeMonth": 308,
+    "timeYear": 308,
+    "dailyMinutesDown": {}
   }
 ]

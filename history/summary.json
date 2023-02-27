@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2829,
-    "timeDay": 2829,
-    "timeWeek": 2829,
-    "timeMonth": 2829,
-    "timeYear": 2829,
+    "time": 2831,
+    "timeDay": 2831,
+    "timeWeek": 2831,
+    "timeMonth": 2831,
+    "timeYear": 2831,
     "dailyMinutesDown": {}
   },
   {
@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/deadpul.prod.urbanladder.com.ico",
     "slug": "urbanladder-deadpul",
     "status": "down",
-    "uptime": "9.11%",
-    "uptimeDay": "9.11%",
-    "uptimeWeek": "9.11%",
-    "uptimeMonth": "9.11%",
-    "uptimeYear": "9.11%",
+    "uptime": "0.41%",
+    "uptimeDay": "0.41%",
+    "uptimeWeek": "0.41%",
+    "uptimeMonth": "0.41%",
+    "uptimeYear": "0.41%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2023-02-27": 0
+      "2023-02-27": 4
     }
   }
 ]

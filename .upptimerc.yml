@@ -5,10 +5,10 @@ repo: upptime # The name of this repository
 runner: "self-hosted"
 
 sites:
-  - name: Urbanladder - Hercules
-    url: https://www.urbanladder.com
-  - name: Urbanladder - Deadpul
-    url: https://deadpul.prod.urbanladder.com
+  - name: Staging - Hercules
+    url: https://stg-hercules.urbanladder.com
+  - name: Staging - Deadpul
+    url: https://stg-birbul.urbanladder.com
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -16,7 +16,7 @@ status-website:
   cname: stg-status.urbanladder.com
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
+  name: Urbanladder Uptime Monitoring
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:

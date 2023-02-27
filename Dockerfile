@@ -9,7 +9,7 @@ RUN apt-get install -y software-properties-common build-essential libssl-dev lib
 
 RUN add-apt-repository ppa:git-core/ppa -y && apt-get update -y
 
-RUN apt-get install -y --no-install-recommends curl jq nodejs git npm
+RUN apt-get install -y --no-install-recommends curl jq git npm
 
 WORKDIR /actions-runner
 

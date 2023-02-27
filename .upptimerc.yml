@@ -2,7 +2,7 @@
 owner: SVMadhavaReddy # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
-# runner: "self-hosted"
+runner: "self-hosted"
 
 sites:
   - name: Urbanladder - Hercules

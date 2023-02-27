@@ -1,22 +1,23 @@
 FROM ubuntu:20.04
 
-# set the github runner version
 ARG RUNNER_VERSION="2.302.1"
+ENV DEBIAN_FRONTEND="noninteractive"
 
-# update the base packages and add a non-sudo user
 RUN apt-get update -y && apt-get upgrade -y && useradd -m github
 
-WORKDIR /home/github/actions-runner
+RUN apt-get install -y software-properties-common build-essential libssl-dev libffi-dev
 
-# install packages your code depends on
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-    curl jq build-essential libssl-dev libffi-dev git npm
+RUN add-apt-repository ppa:git-core/ppa -y && apt-get update -y
+
+RUN apt-get install -y --no-install-recommends curl jq nodejs git npm
+
+WORKDIR /actions-runner
 
 # download and unzip the github actions runner
-RUN curl -O -L https://github.com/actions/runner/releases/download/v${RUNNER_VERSION}/actions-runner-linux-x64-${RUNNER_VERSION}.tar.gz \
-    && tar xzf ./actions-runner-linux-x64-${RUNNER_VERSION}.tar.gz
+RUN curl -o /tmp/actions-runner.tar.gz -L https://github.com/actions/runner/releases/download/v${RUNNER_VERSION}/actions-runner-linux-x64-${RUNNER_VERSION}.tar.gz \
+    && tar xzf /tmp/actions-runner.tar.gz
 
-RUN chown -R github ~github && ./bin/installdependencies.sh
+RUN chown -R github /actions-runner && ./bin/installdependencies.sh
 
 COPY start.sh start.sh
 
@@ -24,4 +25,4 @@ RUN chmod +x start.sh
 
 USER github
 
-CMD ["/start.sh"]
+CMD ["./start.sh"]

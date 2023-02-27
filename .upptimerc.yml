@@ -2,7 +2,7 @@
 owner: SVMadhavaReddy # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
-runner: spot-runner-staging
+runner: "[self-hosted, Linux, X64]"
 
 sites:
   - name: Urbanladder - Hercules

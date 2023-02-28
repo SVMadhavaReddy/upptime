@@ -13,7 +13,7 @@ sites:
     url: https://stg-birbul.urbanladder.com
 
 workflowSchedule:
-  uptime: "* * * * *"
+  uptime: "*/5 * * * *"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain

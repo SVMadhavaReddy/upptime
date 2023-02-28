@@ -2,7 +2,7 @@
 owner: SVMadhavaReddy # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
-runner: "self-hosted"
+# runner: "self-hosted"
 
 sites:
   - name: Staging - Hercules
@@ -12,8 +12,8 @@ sites:
   - name: Staging - Birbul
     url: https://stg-birbul.urbanladder.com
 
-workflowSchedule:
-  uptime: "*/5 * * * *"
+# workflowSchedule:
+#   uptime: "*/5 * * * *"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain

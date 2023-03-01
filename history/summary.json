@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/stg1-hercules.urbanladder.com.ico",
     "slug": "staging-hercules",
     "status": "up",
-    "uptime": "94.31%",
-    "uptimeDay": "94.31%",
-    "uptimeWeek": "94.31%",
-    "uptimeMonth": "94.31%",
-    "uptimeYear": "94.31%",
-    "time": 151,
-    "timeDay": 151,
-    "timeWeek": 151,
-    "timeMonth": 151,
-    "timeYear": 151,
+    "uptime": "99.04%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "99.04%",
+    "uptimeMonth": "99.04%",
+    "uptimeYear": "99.04%",
+    "time": 170,
+    "timeDay": 202,
+    "timeWeek": 170,
+    "timeMonth": 170,
+    "timeYear": 170,
     "dailyMinutesDown": {
       "2023-02-27": 16
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 133,
-    "timeDay": 133,
-    "timeWeek": 133,
-    "timeMonth": 133,
-    "timeYear": 133,
+    "time": 129,
+    "timeDay": 140,
+    "timeWeek": 129,
+    "timeMonth": 129,
+    "timeYear": 129,
     "dailyMinutesDown": {}
   },
   {
@@ -43,18 +43,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/stg-birbul.urbanladder.com.ico",
     "slug": "staging-birbul",
     "status": "down",
-    "uptime": "99.95%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.95%",
+    "uptime": "16.04%",
+    "uptimeDay": "3.08%",
+    "uptimeWeek": "16.04%",
+    "uptimeMonth": "16.04%",
+    "uptimeYear": "16.04%",
     "time": 506,
-    "timeDay": 506,
+    "timeDay": 521,
     "timeWeek": 506,
     "timeMonth": 506,
     "timeYear": 506,
     "dailyMinutesDown": {
-      "2023-02-28": 0
+      "2023-03-01": 71,
+      "2023-02-28": 1324
     }
   }
 ]
